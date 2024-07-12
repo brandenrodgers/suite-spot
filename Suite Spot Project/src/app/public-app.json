@@ -1,0 +1,30 @@
+{
+  "name": "Suit Spot App",
+  "uid": "suite-spot-app",
+  "description": "An app to book hotels for customers",
+  "allowedUrls": ["https://api.hubapi.com"],
+  "auth": {
+    "redirectUrls": ["http://localhost:3000/oauth-callback"],
+    "requiredScopes": [
+      "crm.objects.contacts.read",
+      "crm.objects.contacts.write"
+    ],
+    "optionalScopes": [],
+    "conditionallyRequiredScopes": []
+  },
+  "support": {
+    "supportEmail": "support@example.com",
+    "documentationUrl": "https://example.com/docs",
+    "supportUrl": "https://example.com/support",
+    "supportPhone": "+18005555555"
+  },
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./extensions/suite-spot-card.json"
+        }
+      ]
+    }
+  }
+}
