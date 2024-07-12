@@ -2,7 +2,7 @@
   "type": "crm-card",
   "data": {
     "title": "Suite Spot",
-    "uid": "suit-spot-card",
+    "uid": "suite-spot-card",
     "location": "crm.record.tab",
     "module": {
       "file": "Home.jsx"

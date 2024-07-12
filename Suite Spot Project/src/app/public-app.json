@@ -1,5 +1,5 @@
 {
-  "name": "Suit Spot App",
+  "name": "Suite Spot App",
   "uid": "suite-spot-app",
   "description": "An app to book hotels for customers",
   "allowedUrls": ["https://api.hubapi.com"],

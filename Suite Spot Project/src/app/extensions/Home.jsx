@@ -7,7 +7,7 @@ hubspot.extend(() => <Extension />);
 const Extension = () => {
   return (
     <>
-      <Text>Welcome to the Suit Spot card!</Text>
+      <Text>Welcome to the Suite Spot card!</Text>
     </>
   );
 };
